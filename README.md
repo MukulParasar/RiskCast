@@ -1,127 +1,135 @@
-RiskCast - AI-Powered Disaster Forecasting & Planning Engine
-Project Overview
-RiskCast is an AI-driven disaster forecasting and planning engine that leverages machine learning to analyze geographical and environmental data. It identifies flood-risk areas and provides actionable, data-driven mitigation strategies to help communities prepare for and respond effectively to flooding events. The platform integrates modern technologies in frontend development, backend services, and machine learning to deliver accurate and timely disaster prediction and planning.
+# RiskCast: AI-Powered Disaster Forecasting & Planning Engine
 
-Features
-Flood risk prediction using machine learning on environmental and geographical data.
+Welcome to **RiskCast**, where data meets preparedness. This interactive README invites you to explore, poke around, and build upon a system designed to help communities anticipate and respond to flooding events.
 
-Data-driven mitigation strategies for flood-prone areas.
+---
 
-Interactive and user-friendly frontend for visualizing risk zones and recommended actions.
+## 🎯 What Is RiskCast?
 
-Secure and efficient backend API supporting real-time data exchange.
+RiskCast is an AI-driven forecasting and planning engine that blends geographical insight, environmental signals, and machine learning into a single decision-support system. It detects flood‑risk zones and recommends practical mitigation strategies.
 
-Extensible architecture to incorporate additional disaster types and regional data.
+Think of it as your digital lookout tower that never sleeps.
 
-Technology Stack
-Frontend: Angular
+---
 
-Backend: .NET Core (C#)
+## ✨ Core Features
 
-Machine Learning Model: Python (.py scripts)
+* **Flood Risk Prediction** using ML models trained on real-world environmental and geographical data.
+* **Mitigation Strategy Engine** that generates tailored, data-backed action recommendations.
+* **Interactive Angular Frontend** for visualizing maps, heat zones, and suggestions.
+* **Robust .NET Core Backend** that ferries data between the UI and ML model.
+* **Modular Architecture** enabling future expansion to hurricanes, wildfires, or other hazards.
 
-Getting Started
-Prerequisites
-Node.js (v14 or above) for Angular frontend
+---
 
-.NET SDK (version compatible with .NET Core backend)
+## 🧩 Technology Stack
 
-Python 3.x for machine learning model
+* **Frontend:** Angular
+* **Backend:** .NET Core (C#)
+* **Machine Learning:** Python scripts
 
-Package managers: npm (for Angular), pip (for Python dependencies)
+---
 
-Installation
-Clone the repository
+## 🚀 Getting Started
 
-bash
+### ✅ Prerequisites
+
+* Node.js v14+
+* .NET SDK
+* Python 3.x
+* npm & pip
+
+---
+
+## 📦 Installation & Setup
+
+### 1. Clone the Repository
+
+```bash
 git clone https://github.com/MukulParasar/RiskCast.git
-cd riskcast
-Setup Backend
+cd RiskCast
+```
 
-Navigate to the backend folder:
+### 2. Start the Backend
 
-bash
-cd backend
-Restore .NET packages:
-
-bash
+```bash
+cd Backend
 dotnet restore
-Run backend API:
-
-bash
 dotnet run
-Setup Frontend
+```
 
-Navigate to the frontend folder:
+### 3. Fire Up the Frontend
 
-bash
-cd ../frontend
-Install Node packages:
-
-bash
+```bash
+cd ../Frontend
 npm install
-Run Angular app:
-
-bash
 ng serve
-The frontend will typically be available at http://localhost:4200.
+```
 
-Setup Machine Learning Model
+Your UI awaits at **[http://localhost:4200](http://localhost:4200)**.
 
-Navigate to the ML model folder:
+### 4. Prep the Machine Learning Model
 
-bash
-cd ../ml_model
-Install required Python packages:
-
-bash
+```bash
+cd ../MLModel
 pip install -r requirements.txt
-Run or integrate the ML script as required:
+python main.py
+```
 
-bash
-python flood_predictor.py
-Architecture and Workflow
-Frontend (Angular):
-Provides the UI for users to input data, view flood risk maps, and mitigation suggestions. Uses HTTP services to communicate with the backend API.
+---
 
-Backend (.NET Core):
-Acts as an API server processing requests from frontend, managing data operations, and invoking the ML model for predictions via inter-process communication or RESTful calls.
+## 🏗️ Architecture & Workflow
 
-Machine Learning Model (Python):
-Processes geographical and environmental datasets using trained models to classify flood risk zones. Outputs risk assessments and mitigation strategies, returned to backend and then frontend.
+* **Angular Frontend:** Handles map displays, forms, and user flows.
+* **.NET Core Backend:** Acts as the conductor orchestrating calls between UI and ML model.
+* **Python ML Engine:** Processes datasets, runs predictions, emits risk scores.
 
-Project Structure
-text
-riskcast/
+The workflow pirouettes like this:
+
+1. User provides input or navigates the map.
+2. Frontend sends the request to backend.
+3. Backend forwards it to Python model.
+4. Prediction returns and flows back to frontend.
+5. User sees risk zones and recommended actions.
+
+---
+
+## 📁 Project Structure
+
+```
+RiskCast/
 │
-├── frontend/           # Angular application source code
-│
-├── backend/            # .NET Core backend API source code
-│
-└── ml_model/           # Python scripts for ML model and data processing
-Usage
-Launch backend server first to handle API requests.
+├── Frontend/        # Angular application
+├── Backend/         # .NET Core API
+└── MLModel/        # Python ML scripts
+```
 
-Run frontend application to access the user interface.
+---
 
-The frontend interacts with backend services to fetch prediction results.
+## 🧭 Usage Guide
 
-The backend calls the ML model as needed to generate flood risk forecasts.
+* Start the backend first.
+* Then run the Angular app.
+* Navigate the dashboard to explore risk zones.
+* Watch predictions and mitigation insights bloom in real time.
 
-Users can explore risk areas on the map and review suggested mitigation actions.
+---
 
-Contributing
-Contributions and suggestions are welcome. Please fork the repository and submit pull requests to enhance functionality or fix issues.
+## 🤝 Contributing
 
-License
-Copyright (c) 2025 Mukul
-All Rights Reserved.
+Pull requests, feature ideas, optimizations... all welcome.
 
-This source code and its contents are protected by copyright law.  
-You may not copy, modify, distribute, or use any part of this code  
-without explicit written permission from the author.
+---
 
-Contact
-For any further information or questions, please contact:
-Mukul – mukulparasharsharma@gmail.com
+## 📜 License
 
+This project is currently not licensed. Please add a license before public distribution.
+
+---
+
+## 📬 Contact
+
+**Your Name**
+**[mukulparasharsharma@gmail.com](mailto:mukulparasharsharma@gmail.com)**
+
+Ready to explore? Scroll, click, run, and experiment. RiskCast is your canvas.
