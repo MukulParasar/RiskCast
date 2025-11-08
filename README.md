@@ -34,7 +34,7 @@ Installation
 Clone the repository
 
 bash
-git clone https://github.com/yourusername/riskcast.git
+git clone https://github.com/MukulParasar/RiskCast.git
 cd riskcast
 Setup Backend
 
@@ -114,9 +114,14 @@ Contributing
 Contributions and suggestions are welcome. Please fork the repository and submit pull requests to enhance functionality or fix issues.
 
 License
-Specify the license under which the project is released (e.g., MIT License).
+Copyright (c) 2025 Mukul
+All Rights Reserved.
+
+This source code and its contents are protected by copyright law.  
+You may not copy, modify, distribute, or use any part of this code  
+without explicit written permission from the author.
 
 Contact
 For any further information or questions, please contact:
-Your Name – your.email@example.com
+Mukul – mukulparasharsharma@gmail.com
 
