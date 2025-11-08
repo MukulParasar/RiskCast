@@ -129,7 +129,7 @@ This project is currently not licensed. Please add a license before public distr
 
 ## 📬 Contact
 
-**Your Name**
+**Mukul**
 **[mukulparasharsharma@gmail.com](mailto:mukulparasharsharma@gmail.com)**
 
 Ready to explore? Scroll, click, run, and experiment. RiskCast is your canvas.
