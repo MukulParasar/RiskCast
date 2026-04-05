@@ -123,13 +123,13 @@ Pull requests, feature ideas, optimizations... all welcome.
 
 ## 📜 License
 
-This project is currently not licensed. Please add a license before public distribution.
+Licenced under law.
 
 ---
 
 ## 📬 Contact
 
-**Mukul**
-**[mukulparasharsharma@gmail.com](mailto:mukulparasharsharma@gmail.com)**
+**Mukul**<br>
+LinkedIn: **https://www.linkedin.com/in/mukul024/**
 
 Ready to explore? Scroll, click, run, and experiment. RiskCast is your canvas.
